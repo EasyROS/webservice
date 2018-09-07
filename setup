@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf ./web/lib/
+mkdir ./web/lib/
+cd ./web/lib/ 
+ln -sf ../../build/Release/*.node

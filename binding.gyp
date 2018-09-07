@@ -1,6 +1,6 @@
 {
 	"targets":[{
-		"target_name": "addon",
-		"sources": ["adapter.cc"]
+		"target_name": "adapter",
+		"sources": ["./src/adapter.cc"]
 	}]
 }
