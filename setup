@@ -1,5 +1,16 @@
 #!/bin/bash
+
 rm -rf ./web/lib/
 mkdir ./web/lib/
-cd ./web/lib/ 
+cd ./web/lib/
 ln -sf ../../build/Release/*.node
+
+cd ../../
+rm -rf ./lib/
+mkdir lib
+cd ./lib
+ln -sf ../../../../devel_release/lib/*.so 
+
+cd ..
+cd web
+npm install
